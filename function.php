@@ -1,4 +1,4 @@
-/***** Add Iran Phone Format in Gravity Foem ************/
+/***** Add Iran Phone Format in Gravity Form ************/
 add_filter( 'gform_phone_formats', 'ir_phone_format' );
 function ir_phone_format( $phone_formats ) {
     $phone_formats['ir'] = array(
